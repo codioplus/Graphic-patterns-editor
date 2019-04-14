@@ -1,0 +1,78 @@
+<html>
+    <head>
+        <title>Graphic Editor</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+        <link href='custom.css' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-xs-12">
+
+                    <h1>Graphic Editor</h1>
+
+                    <p class="lead">A simple web app called “Graphic Editor” which draws geometric shapes such as circle, square, rectangle, triangle & rhombus. Each shape might have various attributes like border color and size, fill color... etc.
+ </p>
+
+
+                    <form id="graphic-form" method="post" action="app.php" role="form">
+
+                        <div class="messages"></div>
+
+                        <div class="controls">
+
+        
+           
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label for="form_json">Json area *</label>
+                                        <textarea id="form_json" name="json" class="form-control" placeholder='Past your code example' rows="9" required="required" ></textarea>
+                                        <small id="jsonHelp" class="form-text text-muted">Example: { "shapes": [  { "type": "rhombus", "rhombusX": 15, "border": { "color": "purple", "width":17 } },  { "type": "triangle", "triangleX": 15, "border": { "color": "green", "width":27 } },{ "type": "rectangle", "rectangleWidth": 15, "rectangleLength":40, "border": { "color": "yellow", "width": 7 } },{ "type": "circle", "perimeter": 10, "border": { "color": "red", "width": 7 } },{"type": "square","sideLength": 10, "border": { "color": "#776cff", "width": 19 } }]}</small>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <input type="submit" class="btn btn-success btn-send" value="Send Json">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <p class="text-muted"><strong>*</strong> These fields are required. </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </form>
+					
+					
+					
+					
+					
+
+                </div>
+
+
+            </div> <!-- /.row-->
+
+
+            <div class="row">
+                <div class="col-xs-12">
+                    <h3>Preview area</h3>
+                    <div id="previewArea">No data!</div>
+            </div>
+            </div>
+        </div> <!-- /.container-->
+
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js" integrity="sha256-dHf/YjH1A4tewEsKUSmNnV05DDbfGN3g7NMq86xgGh8=" crossorigin="anonymous"></script>
+        <script src="scripts.js"></script>
+    </body>
+</html>
