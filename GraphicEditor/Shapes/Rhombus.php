@@ -12,11 +12,11 @@ class Rhombus extends ShapeBase
     /***
      * @var int
      */
-    private $width = 10 ;
+    private $width = 10;
     /**
      * @var int
      */
-    private $rhombusX = 0 ;
+    private $rhombusX = 0;
     /**
      * @var int
      */
@@ -62,8 +62,8 @@ class Rhombus extends ShapeBase
 
 
     /***
-     * Sorry, I implemented this, it is simple just to have a demonstration
-     * @return string
+     * Add the Shape in array
+     * @return array
      */
     public function calculateShape(){
 

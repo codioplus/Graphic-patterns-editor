@@ -12,15 +12,15 @@ class Rectangle extends ShapeBase
     /***
      * @var int
      */
-    private $width = 10 ;
+    private $width = 10;
     /**
      * @var int
      */
-    private $rectangleWidth = 0 ;
+    private $rectangleWidth = 0;
     /**
      * @var int
      */
-    private $rectangleLength = 0 ;
+    private $rectangleLength = 0;
     /**
      * @var int
      */
@@ -82,8 +82,8 @@ class Rectangle extends ShapeBase
 
 
     /***
-     * Sorry, I implemented this, it is simple just to have a demonstration
-     * @return string
+     * Add the Shape in array
+     * @return array
      */
     public function calculateShape(){
 

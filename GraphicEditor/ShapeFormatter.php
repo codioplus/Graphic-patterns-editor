@@ -6,8 +6,6 @@ use GraphicEditor\Shapes\ShapeBase;
 
 /***
  * Class responsible to format our shapes including sending to screen, if any new format is needed just add it here
- * Interface ShapeFormatter
- * @package GraphicEditor\Shapes
  */
 class ShapeFormatter
 {

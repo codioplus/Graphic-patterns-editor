@@ -15,7 +15,7 @@ class Circle extends ShapeBase
 	 * @var int
 	 */
     private $perimeter = 0;
-    private $width = 10 ;
+    private $width = 10;
     private $addedBorderWidth = 10;
 
     /***
@@ -28,9 +28,8 @@ class Circle extends ShapeBase
     }
 
     /***
-     * Returns the  border width of the circle
-     * @param $borderWidth
-     * @return int
+     * Add the Shape in array
+     * @return array
      */
     public function getWidth()
     {

@@ -12,11 +12,11 @@ class Triangle extends ShapeBase
     /***
      * @var int
      */
-    private $width = 10 ;
+    private $width = 10;
     /**
      * @var int
      */
-    private $triangleX = 0 ;
+    private $triangleX = 0;
 
     /**
      * @var int
@@ -61,10 +61,9 @@ class Triangle extends ShapeBase
 
 
 
-
     /***
-     * Sorry, I implemented this, it is simple just to have a demonstration
-     * @return string
+     * Add the Shape in array
+     * @return array
      */
     public function calculateShape(){
 

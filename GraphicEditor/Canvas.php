@@ -5,9 +5,7 @@ namespace GraphicEditor;
 use GraphicEditor\Shapes\ShapeBase;
 use GraphicEditor\ShapeFormatter;
 
-/**
- * This is an extra class to simulate a canvas and will be the manager and holder of the shapes
-*/
+
 class Canvas
 {
 
@@ -27,7 +25,7 @@ class Canvas
         //first calculates the shape
         $this->shapes[] = $shape;
         //then draw the shape
-        ShapeFormatter::printShapeHtml($shape); //sends it to the screen
+        ShapeFormatter::printShapeHtml($shape); //sends it to the screen as Html
 
 
     }

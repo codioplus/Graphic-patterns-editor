@@ -26,7 +26,7 @@ abstract class ShapeBase
 
     /***
      * Border width
-     * @var int  by default 10
+     * @var int  by default 0
      */
     private $width = 0;
 
